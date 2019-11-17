@@ -1,0 +1,159 @@
+:root {
+    --santa-red: #BF1730;
+    --santa-red-light: rgba(191, 23, 48, 0.658);
+    --christmas-green: #068778;
+}
+
+body {
+    font-family: "Montserrat";
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+#title {
+    background-color: var(--santa-red);
+    color: #fff;    
+}
+
+h1 {
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 3.5rem;
+
+    line-height: 1.5;
+}
+
+/*NavBar*/
+.navbar {
+    padding: 0 0 4.5rem 0;
+    width: auto;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.nav-item {
+    padding: 0 1rem;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    
+}
+
+
+/*Download Buttons*/
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/*Title Image*/
+
+.title-image {
+    width: 55%;
+    transform: rotate(10deg);
+}
+
+/*Features Section*/
+#features {
+    padding: 7% 15%;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.feature-box h3 {
+    font-family: "Montserrat";
+    font-weight: 900;
+}
+
+.feature-box p {
+    
+    color: #8f8f8f;
+}
+
+.icon {
+    color: var(--santa-red);
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: var(--christmas-green);
+}
+
+/*Testimonials*/
+
+#testimonials {
+    
+    text-align: center;
+    background-color: var(--santa-red-light);
+    color: #fff;
+}
+
+#testimonials h2 {
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.testimonial-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 2rem;
+}
+
+#press {
+    background-color: var(--santa-red-light);
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo {
+    width: 15%;
+    margin: 1.4rem 1.4rem 1.8rem;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/*.container {
+    background-color: tomato;
+}
+
+.col {
+    background-color: violet;
+}
+.col-6 {
+    border: 1px solid green;
+    background-color: yellow;
+}
+
+.col-8 {
+    background-color: teal;
+}
+
+.col-4 {
+    background-color: rosybrown;
+}
+
+.col-md-3 {
+    border: 1px solid snow;
+}
+
+.col-md-3:first-child {
+    background-color: royalblue;
+}
+
+.col-md-3:last-child {
+    background-color: seagreen;
+}*/
